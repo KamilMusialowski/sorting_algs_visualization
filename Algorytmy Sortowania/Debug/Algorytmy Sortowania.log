@@ -1,0 +1,32 @@
+﻿  main.cpp
+C:\Users\CP24\source\Repos\8f52b266-gr02-repo\Projekt\Algorytmy Sortowania\wybor.h(60,11): warning C4244: "=": konwersja z "double" do "T", możliwa utrata danych
+          with
+          [
+              T=int
+          ]
+C:\Users\CP24\source\Repos\8f52b266-gr02-repo\Projekt\Algorytmy Sortowania\wybor.h(54): message : podczas kompilowania funkcji składowej „void Wybor<T>::sortuj(std::vector<T,std::allocator<T>> &)” klasy klasa szablon
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\type_traits(355): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „Wybor<T>” klasy klasa szablon
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(1453): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::is_convertible<_Yty *,_Ty *>” klasy klasa szablon
+          with
+          [
+              _Yty=Wybor<int>,
+              _Ty=Algorytm<int>
+          ]
+C:\Users\CP24\source\Repos\8f52b266-gr02-repo\Projekt\Algorytmy Sortowania\program.h(59): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::_SP_pointer_compatible<Wybor<T>,Algorytm<T>>” klasy klasa szablon
+          with
+          [
+              T=int
+          ]
+C:\Users\CP24\source\Repos\8f52b266-gr02-repo\Projekt\Algorytmy Sortowania\program.h(49): message : podczas kompilowania funkcji składowej „void Program<int>::wybor_algorytmu(void)” klasy klasa szablon
+C:\Users\CP24\source\Repos\8f52b266-gr02-repo\Projekt\Algorytmy Sortowania\program.h(90): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void Program<int>::wybor_algorytmu(void)” funkcji szablon
+C:\Users\CP24\source\Repos\8f52b266-gr02-repo\Projekt\Algorytmy Sortowania\main.cpp(21): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „Program<int>” klasy klasa szablon
+C:\Users\CP24\source\Repos\8f52b266-gr02-repo\Projekt\Algorytmy Sortowania\wybor.h(60,1): warning C4056: przepełnienie zmiennoprzecinkowej stałej arytmetycznej
+  Algorytmy Sortowania.vcxproj -> C:\Users\CP24\source\Repos\8f52b266-gr02-repo\Projekt\Algorytmy Sortowania\Debug\Algorytmy Sortowania.exe
